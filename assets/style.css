@@ -1,0 +1,16 @@
+
+
+header {
+	background-color: #2C3E50;
+}
+
+[class*="col"] {
+	border: 2px solid black;
+}
+
+._1{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    display: inline-block;
+}
