@@ -1,9 +1,13 @@
-/* Nav */
 
-.nav_bg{
+.nav_bg, footer{
     background-color: #2C3E50;
 }
 
+._white{
+    color: white;
+}
+
+/* Nav */
 .navbar-toggler{
     border: 2px solid white;
     
@@ -34,34 +38,63 @@
 }
 .white-bar{
     height: 5px;
-    width: 80px;
+    width: 100%;
     background-color: white;
     border-radius: 5px;
     border: 1px solid black;
     display: inline-block ;
+    
 }
 
 .black-bar{
     height: 5px;
-    width: 80px;
+    width: 100%;
     background-color: black;
     border-radius: 5px;
     border: 1px solid white;
+    display: inline-block ;
+    
+}
+
+
+.fix_star{
+    max-width: 300px;
+    margin: auto;
+    padding: 2rem 0;
 }
 
 
 
-.card{
+._card img{
     border-radius: 5px;
+    max-width: 100%;
 }
 
-.text-1,.text-2{
-    color:white
+._card:hover{
+    opacity: 0.5;
 }
 
 .btn{
-    width: 40px;
-    height: 10px;
-    background-color: blue;
-    border: 1px solid black;  
+    border: 1px solid white;  
+    color: white;
 }
+
+.form-control{
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 0;
+}
+
+.green_btn{
+    background-color: #1BB89A;
+}
+
+.Info{
+    background-color: #3A546D;
+}
+
+.begin{
+    text-decoration: none;
+    color: #1BB89A;
+}
+
